@@ -1,0 +1,54 @@
+:root{
+    --color_light: rgb(248, 155, 248);
+    --color-dark: rgb(135, 187, 255);
+}
+
+body{
+    position: relative;
+    display: flex;
+    background: linear-gradient(to left, var(--color-dark),var(--color_light));
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+form{ 
+    justify-items: center;
+    box-shadow: 8px 10px 6px rgba(0,0,0,0.1);   
+    font-size: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+    position: absolute;
+    padding: 24px 36px;
+    border-radius: 15px;
+    max-width: 300px;
+    background:linear-gradient(To left, rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+
+    
+}
+
+input,button{
+    
+    box-shadow: 8px 10px 6px rgba(0,0,0,0.1);  
+    background:linear-gradient(To left, rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+    border-radius: 15px; 
+    border: none;
+    font-size: 24px;
+    padding: 12px 24px;
+    
+}
+
+input{
+    margin-bottom: 32px;
+    
+}
+label{
+    position: absolute;
+    
+
+  
+  }
+.__form-input-container{
+    position: relative;
+    margin-bottom: 32px;
+}
