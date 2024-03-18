@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wisielec</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wisielec.css">
+
 </head>
 <body>
     <Header class="Header__Game">
        <h1>Gierki w JS - Wisielec</h1>
     </Header>
-   
+    
     <main class="main__game">
-        
-       
-        
-       <div class="game__window"></div>    
+       <div class="game__window">
+        <div class="game__winOrGameOver"><span id="winornot"></div>
+        <div class="game__sentence"><span class="password">Hasło do odgadnięcia</span></div>
+        <div class="game__image"></div>
+        <div class="game__tools"></div>
+       </div>    
     </main>
+    <script src="wisielec/wisielec.js"></script>
 </body>
 </html>
