@@ -102,6 +102,7 @@ text-shadow: white 1px 1px 3px;
     display: none;
     justify-content: center;
     align-items: center;
+    text-align: center;
     box-shadow: rgb(255, 255, 255) 0px 0px 20px;
 
 }
